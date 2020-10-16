@@ -42,7 +42,6 @@ function onGalleryItemClick(event) {
        
     modalLightboxRef.classList.add('is-open');
 
-    imageEl.dataset.source;
     
    ligthboxImageRef.src = imageEl.dataset.source;
    ligthboxImageRef.alt = imageEl.alt;
